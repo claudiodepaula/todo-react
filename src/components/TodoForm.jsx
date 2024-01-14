@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import todoType from '../data/data.js';
+import {todoType} from '../data/data.js';
 
 
 

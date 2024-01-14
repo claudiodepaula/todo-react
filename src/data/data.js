@@ -14,5 +14,20 @@ const todoType = [
 
 ]
 
+const statusOptions = [
+  {
+    value: 'all',
+    title:  'All'  
+  },
+  {
+    value: 'completed',
+    title:  'Completed'  
+  },
+  {
+    value: 'incomplete',
+    title:  'Incomplete'  
+  },
 
-export default todoType;
+]
+
+export { todoType, statusOptions }
